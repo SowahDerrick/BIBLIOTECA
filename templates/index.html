@@ -1,0 +1,61 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>We Book</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='CSS/book.css')}}"/>
+
+	<link rel="stylesheet" href="{{url_for('static', filename='CSS/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static', filename='CSS/page1.css')}}"/>
+
+</head>
+<body>
+	<div class="row">
+		<p>  </p>
+	</div>
+	<div class="row">
+		
+		<div class="col-3">
+			
+		</div>
+		<div class="col-7">
+			<h1>WELCOME TO WICKIES LA BIBLIOTECA</h1>
+		</div>
+		<div class="col-2">
+			
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-3">
+			
+		</div>
+		<div class="col-6 content-box">
+
+			<section id="login_session">
+						<form class="form-signin" action="/login" method="POST">
+				 
+				  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+				  <label for="inputEmail" class="sr-only">Email address</label>
+				  <input type="text" id="inputEmail" class="form-control" placeholder="Username" name="username"required autofocus><br>
+				  <label for="inputPassword" class="sr-only">Password</label>
+				  <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password"required><br>
+				  
+				  <button class="btn btn-lg btn-success btn-block" type="submit">Log in</button>
+				  
+				  <p>Don't have an account?<a href="/register">Register</a>
+
+			</div>
+
+				<div class="col-3">
+				</div>
+			</form>
+			</section>
+		</div>
+		
+	
+	
+</body>
+</html>
+
+
+				

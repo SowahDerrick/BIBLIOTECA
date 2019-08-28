@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="{{url_for('static', filename='CSS/book.css')}}"/>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.dropdown{
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body id="whatever">
+<center><h1><u>WICKIES LA BIBLIOTECA</u></h1></center>
+<center><p>Success is not final; failure is not fatal: It is the courage to continue that counts.</p>
+<p>It is better to fail in originality than to succeed in imitation</p>
+<p>The road to success and the road to failure are almost exactly the same</p>
+<p>Successful people do what unsuccessful people are not willing to do. Don't wish it were easier; wish you were better</p>
+<p>Try not to become a man of success. Rather become a man of value</p></center>
+<center><h3>Choose the type of programming language you want and let us start learning</h3></center>
+<nav id="navigate">
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Html and CSS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Beginning%20HTML%20with%20CSS%20and%20XHTML.pdf?alt=media&token=28137f6a-fa40-4475-82de-5a549968acdf">Beginning HTML with CSS and XHTML</a>
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Teach%20Yourself%20VISUALLY%20HTML%20and%20CSS.pdf?alt=media&token=0a005394-bf84-4029-9465-f412ce01392c">Teach Yourself VISUALLY HTML and CSS</a>
+    </div>
+  </div> 
+<div class="dropdown">
+    <button class="dropbtn">Javascript
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/JavaScript%20Data%20Structures%20and%20Algorithms.pdf?alt=media&token=d3201738-6943-4d8f-aa4c-1ea16b5183d3">JavaScript Data Structures and Algorithms</a>
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Data%20Wrangling%20with%20JavaScript.pdf?alt=media&token=a5d6c621-26a4-4c49-ae6e-89a6a86e3668">Data Wrangling with JavaScript</a>
+      </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">Python
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Clean%20Python.pdf?alt=media&token=7492103a-6de0-4fa6-bbd3-8338e08658a4">Clean Python</a>
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/DevOps%20in%20Python.pdf?alt=media&token=de4b727b-872e-40a1-ac7a-e11df0be2633">DevOps in Python</a>
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Python%20All-in-One%20For%20Dummies.pdf?alt=media&token=e3a19f37-8e14-4bbd-a5d8-d6461fd631c3">Python All-in-One For Dummies</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">C++
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Clean%20C.pdf?alt=media&token=8a82f0af-48c4-4119-b5be-adc01be4dcba">Clean C</a>
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Borland%20C--%20Builder.pdf?alt=media&token=ddaf132e-e403-4d73-a30d-f3d06529142b">Borland C-- Builder</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">Arduino
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Practical%20Arduino.pdf?alt=media&token=a5a035fc-1838-4a84-8c0c-910029c9086a">Practical Arduino</a>
+      <a href="https://firebasestorage.googleapis.com/v0/b/wickieslibrary.appspot.com/o/Coding%20the%20Arduino.pdf?alt=media&token=a37095fa-e4b9-481a-b25c-5561895f6382">Coding the Arduino</a>
+    </div>
+  </div>
+</div>
+</nav>
+
+</body>
+</html>
+         
