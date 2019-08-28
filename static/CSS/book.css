@@ -1,0 +1,140 @@
+body{
+  /*  background: url(/static/images/book1.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;*/
+}
+#info {
+	margin-top: 50px;
+}
+
+#login_session{
+/*	margin:0px auto;
+	height: 200px;
+	width:500px;
+	margin-top:120px;
+	border: 2px solid black;*/
+}
+
+#whatever{
+    background: url(/static/images/book2.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#navigate{
+	margin-top: 250px;	
+}
+#the_books{
+	width: 100%;
+	margin-right: 10%;
+	margin-top: 150px;
+}
+#the_books div{
+	width: 33%;
+
+	float: left;
+	margin: 0px auto;
+	margin: 5px;
+	
+}
+
+#navigate{
+	margin-left:30%;
+
+}
+
+#navigate ul{
+	text-align: center;
+
+}
+#navigate ul li{
+	list-style-type:none;
+	display:inline-block;
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 20px;
+}
+#navigate ul li:hover{
+	background: black;
+	color: white;
+
+}
+#tit{
+    background: url(/static/images/book3.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+#main_session{
+	height: 500px;
+	width: 100%;
+	background: green;	
+}
+
+#floating_section{
+	height: 600px;
+	background: blue;
+	width: 100%;
+	margin-top: -250px;	
+}
+#boss{margin-top:100px;}
+
+#floating_section div{
+	width: 40%;
+	background: red;
+	float: left;
+}
+#like{
+       background: url(/static/images/1.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
