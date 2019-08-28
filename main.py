@@ -1,4 +1,5 @@
 import flask
+import os
 from flask import request, redirect, render_template
 from model import Database
 
@@ -51,4 +52,7 @@ def second():
 @app.route('/book')
 def getBook():
     return render_template('book.html', book=request.args.get('book'))
-app.run(debug=True)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host= '0.0.0.0', port= port, debug =True)
